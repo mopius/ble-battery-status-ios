@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD24A3DD1E5C12E200C2B497 /* BatteryStatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24A3DC1E5C12E200C2B497 /* BatteryStatusTableViewController.swift */; };
+		CD24A3DF1E5C1BF300C2B497 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24A3DE1E5C1BF300C2B497 /* AppConstants.swift */; };
+		CD24A3E11E5C1C0700C2B497 /* Mopius+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24A3E01E5C1C0700C2B497 /* Mopius+String.swift */; };
+		CD24A3E41E5C1E6E00C2B497 /* BeaconTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24A3E31E5C1E6E00C2B497 /* BeaconTableViewCell.swift */; };
+		CD24A3E81E5C1F1300C2B497 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24A3E71E5C1F1300C2B497 /* Beacon.swift */; };
+		CD24A3ED1E5C43B600C2B497 /* Mopius+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24A3EC1E5C43B600C2B497 /* Mopius+Data.swift */; };
+		CDD3DD3E1E5B36A2004FBFF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD3DD3D1E5B36A2004FBFF0 /* AppDelegate.swift */; };
+		CDD3DD431E5B36A2004FBFF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD3DD411E5B36A2004FBFF0 /* Main.storyboard */; };
+		CDD3DD451E5B36A2004FBFF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD3DD441E5B36A2004FBFF0 /* Assets.xcassets */; };
+		CDD3DD481E5B36A2004FBFF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD3DD461E5B36A2004FBFF0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD24A3DC1E5C12E200C2B497 /* BatteryStatusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryStatusTableViewController.swift; sourceTree = "<group>"; };
+		CD24A3DE1E5C1BF300C2B497 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		CD24A3E01E5C1C0700C2B497 /* Mopius+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mopius+String.swift"; sourceTree = "<group>"; };
+		CD24A3E31E5C1E6E00C2B497 /* BeaconTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconTableViewCell.swift; sourceTree = "<group>"; };
+		CD24A3E71E5C1F1300C2B497 /* Beacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		CD24A3EC1E5C43B600C2B497 /* Mopius+Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mopius+Data.swift"; sourceTree = "<group>"; };
+		CDD3DD3A1E5B36A2004FBFF0 /* BatteryStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteryStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD3DD3D1E5B36A2004FBFF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDD3DD421E5B36A2004FBFF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDD3DD441E5B36A2004FBFF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDD3DD471E5B36A2004FBFF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDD3DD491E5B36A2004FBFF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDD3DD371E5B36A2004FBFF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD24A3E21E5C1C0A00C2B497 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CD24A3E01E5C1C0700C2B497 /* Mopius+String.swift */,
+				CD24A3EC1E5C43B600C2B497 /* Mopius+Data.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		CD24A3E51E5C1E7200C2B497 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD24A3E31E5C1E6E00C2B497 /* BeaconTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CD24A3E61E5C1E8300C2B497 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD24A3DC1E5C12E200C2B497 /* BatteryStatusTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CD24A3E91E5C1F1C00C2B497 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD24A3E71E5C1F1300C2B497 /* Beacon.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CDD3DD311E5B36A2004FBFF0 = {
+			isa = PBXGroup;
+			children = (
+				CDD3DD3C1E5B36A2004FBFF0 /* BatteryStatus */,
+				CDD3DD3B1E5B36A2004FBFF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDD3DD3B1E5B36A2004FBFF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDD3DD3A1E5B36A2004FBFF0 /* BatteryStatus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDD3DD3C1E5B36A2004FBFF0 /* BatteryStatus */ = {
+			isa = PBXGroup;
+			children = (
+				CD24A3E21E5C1C0A00C2B497 /* Extensions */,
+				CD24A3E91E5C1F1C00C2B497 /* Models */,
+				CD24A3E51E5C1E7200C2B497 /* Views */,
+				CD24A3E61E5C1E8300C2B497 /* Controllers */,
+				CD24A3DE1E5C1BF300C2B497 /* AppConstants.swift */,
+				CDD3DD3D1E5B36A2004FBFF0 /* AppDelegate.swift */,
+				CDD3DD411E5B36A2004FBFF0 /* Main.storyboard */,
+				CDD3DD441E5B36A2004FBFF0 /* Assets.xcassets */,
+				CDD3DD461E5B36A2004FBFF0 /* LaunchScreen.storyboard */,
+				CDD3DD491E5B36A2004FBFF0 /* Info.plist */,
+			);
+			path = BatteryStatus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDD3DD391E5B36A2004FBFF0 /* BatteryStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD3DD4C1E5B36A2004FBFF0 /* Build configuration list for PBXNativeTarget "BatteryStatus" */;
+			buildPhases = (
+				CDD3DD361E5B36A2004FBFF0 /* Sources */,
+				CDD3DD371E5B36A2004FBFF0 /* Frameworks */,
+				CDD3DD381E5B36A2004FBFF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatteryStatus;
+			productName = BatteryStatus;
+			productReference = CDD3DD3A1E5B36A2004FBFF0 /* BatteryStatus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDD3DD321E5B36A2004FBFF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mopius;
+				TargetAttributes = {
+					CDD3DD391E5B36A2004FBFF0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S6UQ476FEN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDD3DD351E5B36A2004FBFF0 /* Build configuration list for PBXProject "BatteryStatus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDD3DD311E5B36A2004FBFF0;
+			productRefGroup = CDD3DD3B1E5B36A2004FBFF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDD3DD391E5B36A2004FBFF0 /* BatteryStatus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDD3DD381E5B36A2004FBFF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD3DD481E5B36A2004FBFF0 /* LaunchScreen.storyboard in Resources */,
+				CDD3DD451E5B36A2004FBFF0 /* Assets.xcassets in Resources */,
+				CDD3DD431E5B36A2004FBFF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDD3DD361E5B36A2004FBFF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD24A3DD1E5C12E200C2B497 /* BatteryStatusTableViewController.swift in Sources */,
+				CD24A3E41E5C1E6E00C2B497 /* BeaconTableViewCell.swift in Sources */,
+				CD24A3E11E5C1C0700C2B497 /* Mopius+String.swift in Sources */,
+				CDD3DD3E1E5B36A2004FBFF0 /* AppDelegate.swift in Sources */,
+				CD24A3DF1E5C1BF300C2B497 /* AppConstants.swift in Sources */,
+				CD24A3E81E5C1F1300C2B497 /* Beacon.swift in Sources */,
+				CD24A3ED1E5C43B600C2B497 /* Mopius+Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDD3DD411E5B36A2004FBFF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDD3DD421E5B36A2004FBFF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDD3DD461E5B36A2004FBFF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDD3DD471E5B36A2004FBFF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDD3DD4A1E5B36A2004FBFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDD3DD4B1E5B36A2004FBFF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDD3DD4D1E5B36A2004FBFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6UQ476FEN;
+				INFOPLIST_FILE = BatteryStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mopius.ios.BatteryStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CDD3DD4E1E5B36A2004FBFF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6UQ476FEN;
+				INFOPLIST_FILE = BatteryStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mopius.ios.BatteryStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDD3DD351E5B36A2004FBFF0 /* Build configuration list for PBXProject "BatteryStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD3DD4A1E5B36A2004FBFF0 /* Debug */,
+				CDD3DD4B1E5B36A2004FBFF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD3DD4C1E5B36A2004FBFF0 /* Build configuration list for PBXNativeTarget "BatteryStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD3DD4D1E5B36A2004FBFF0 /* Debug */,
+				CDD3DD4E1E5B36A2004FBFF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDD3DD321E5B36A2004FBFF0 /* Project object */;
+}

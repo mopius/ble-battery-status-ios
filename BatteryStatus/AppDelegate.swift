@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // navigation bar
         UINavigationBar.appearance().barTintColor = AppConstants.mainColor
         UINavigationBar.appearance().tintColor = .white
-        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
         
         // set status bar text color to white
         UINavigationBar.appearance().barStyle = UIBarStyle.black
@@ -33,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // tabbar
         UITabBar.appearance().tintColor = AppConstants.mainColor
         UITabBar.appearance().isTranslucent = false
-        UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName : AppConstants.mainColor], for: .selected)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor : AppConstants.mainColor], for: .selected)
     }
 }
 

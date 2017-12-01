@@ -23,4 +23,5 @@ class BeaconTableViewCell: UITableViewCell {
         rssiLabel.text = "RSSI: \(beacon.rssi)"
         batteryLabel.text = "\(beacon.power)%"
     }
+
 }

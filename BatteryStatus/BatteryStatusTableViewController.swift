@@ -6,8 +6,8 @@
 //  Copyright © 2017 Mopius. All rights reserved.
 //
 
-import UIKit
 import CoreBluetooth
+import UIKit
 
 class BatteryStatusTableViewController: UITableViewController {
     
@@ -63,7 +63,7 @@ class BatteryStatusTableViewController: UITableViewController {
         return beacons.count
     }
     
-     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "BeaconCell", for: indexPath) as! BeaconTableViewCell
         
         cell.beacon = beacons[indexPath.row]
@@ -74,9 +74,10 @@ class BatteryStatusTableViewController: UITableViewController {
     private func refreshTableView() {
         tableView.reloadData()
     }
+
 }
 
-// MARK: - CBCentralManagerDelegate
+    // MARK: - CBCentralManagerDelegate
 
 extension BatteryStatusTableViewController: CBCentralManagerDelegate {
     func centralManagerDidUpdateState(_ central: CBCentralManager) {

@@ -48,10 +48,11 @@
 		CD24A3E21E5C1C0A00C2B497 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				CD24A3E01E5C1C0700C2B497 /* Mopius+String.swift */,
 				CD24A3EC1E5C43B600C2B497 /* Mopius+Data.swift */,
+				CD24A3E01E5C1C0700C2B497 /* Mopius+String.swift */,
 			);
 			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		CD24A3E51E5C1E7200C2B497 /* Views */ = {
@@ -60,6 +61,7 @@
 				CD24A3E31E5C1E6E00C2B497 /* BeaconTableViewCell.swift */,
 			);
 			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		CD24A3E61E5C1E8300C2B497 /* Controllers */ = {
@@ -68,6 +70,7 @@
 				CD24A3DC1E5C12E200C2B497 /* BatteryStatusTableViewController.swift */,
 			);
 			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		CD24A3E91E5C1F1C00C2B497 /* Models */ = {
@@ -76,6 +79,7 @@
 				CD24A3E71E5C1F1300C2B497 /* Beacon.swift */,
 			);
 			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		CDD3DD311E5B36A2004FBFF0 = {
@@ -97,16 +101,16 @@
 		CDD3DD3C1E5B36A2004FBFF0 /* BatteryStatus */ = {
 			isa = PBXGroup;
 			children = (
+				CD24A3E61E5C1E8300C2B497 /* Controllers */,
 				CD24A3E21E5C1C0A00C2B497 /* Extensions */,
 				CD24A3E91E5C1F1C00C2B497 /* Models */,
 				CD24A3E51E5C1E7200C2B497 /* Views */,
-				CD24A3E61E5C1E8300C2B497 /* Controllers */,
 				CD24A3DE1E5C1BF300C2B497 /* AppConstants.swift */,
 				CDD3DD3D1E5B36A2004FBFF0 /* AppDelegate.swift */,
-				CDD3DD411E5B36A2004FBFF0 /* Main.storyboard */,
 				CDD3DD441E5B36A2004FBFF0 /* Assets.xcassets */,
-				CDD3DD461E5B36A2004FBFF0 /* LaunchScreen.storyboard */,
 				CDD3DD491E5B36A2004FBFF0 /* Info.plist */,
+				CDD3DD461E5B36A2004FBFF0 /* LaunchScreen.storyboard */,
+				CDD3DD411E5B36A2004FBFF0 /* Main.storyboard */,
 			);
 			path = BatteryStatus;
 			sourceTree = "<group>";
@@ -204,6 +208,7 @@
 				CDD3DD421E5B36A2004FBFF0 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		CDD3DD461E5B36A2004FBFF0 /* LaunchScreen.storyboard */ = {
@@ -212,6 +217,7 @@
 				CDD3DD471E5B36A2004FBFF0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

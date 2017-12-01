@@ -8,11 +8,11 @@
 
 import UIKit
 
-struct AppConstants {    
+struct AppConstants {
     // Colors
     private static let blue = "#0080C7".hexColor!
     private static let extraDarkBlue = "#004f7b".hexColor!
-    
+
     static let mainColor = AppConstants.blue
     static let extraDarkMainColor = AppConstants.extraDarkBlue
 }

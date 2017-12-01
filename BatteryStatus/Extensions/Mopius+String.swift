@@ -8,7 +8,7 @@
 import UIKit
 
 extension String {
-    
+
     /**
      Generate a UIColor from a hex color string
      */

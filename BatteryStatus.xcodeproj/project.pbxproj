@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50CD1EBF1FD0DC8B00C3BA33 /* BatteryStatusTableViewController+CBCentralManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD1EBE1FD0DC8B00C3BA33 /* BatteryStatusTableViewController+CBCentralManagerDelegate.swift */; };
 		CD24A3DD1E5C12E200C2B497 /* BatteryStatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24A3DC1E5C12E200C2B497 /* BatteryStatusTableViewController.swift */; };
 		CD24A3DF1E5C1BF300C2B497 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24A3DE1E5C1BF300C2B497 /* AppConstants.swift */; };
 		CD24A3E11E5C1C0700C2B497 /* Mopius+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD24A3E01E5C1C0700C2B497 /* Mopius+String.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50CD1EBE1FD0DC8B00C3BA33 /* BatteryStatusTableViewController+CBCentralManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BatteryStatusTableViewController+CBCentralManagerDelegate.swift"; sourceTree = "<group>"; };
 		CD24A3DC1E5C12E200C2B497 /* BatteryStatusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryStatusTableViewController.swift; sourceTree = "<group>"; };
 		CD24A3DE1E5C1BF300C2B497 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		CD24A3E01E5C1C0700C2B497 /* Mopius+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mopius+String.swift"; sourceTree = "<group>"; };
@@ -45,13 +47,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50CD1EBD1FD0DC6100C3BA33 /* BatteryStatusTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50CD1EBE1FD0DC8B00C3BA33 /* BatteryStatusTableViewController+CBCentralManagerDelegate.swift */,
+				CD24A3DC1E5C12E200C2B497 /* BatteryStatusTableViewController.swift */,
+			);
+			path = BatteryStatusTableViewController;
+			sourceTree = "<group>";
+		};
 		CD24A3E21E5C1C0A00C2B497 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				CD24A3EC1E5C43B600C2B497 /* Mopius+Data.swift */,
 				CD24A3E01E5C1C0700C2B497 /* Mopius+String.swift */,
 			);
-			name = Extensions;
 			path = Extensions;
 			sourceTree = "<group>";
 		};
@@ -60,16 +70,14 @@
 			children = (
 				CD24A3E31E5C1E6E00C2B497 /* BeaconTableViewCell.swift */,
 			);
-			name = Views;
 			path = Views;
 			sourceTree = "<group>";
 		};
 		CD24A3E61E5C1E8300C2B497 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CD24A3DC1E5C12E200C2B497 /* BatteryStatusTableViewController.swift */,
+				50CD1EBD1FD0DC6100C3BA33 /* BatteryStatusTableViewController */,
 			);
-			name = Controllers;
 			path = Controllers;
 			sourceTree = "<group>";
 		};
@@ -78,7 +86,6 @@
 			children = (
 				CD24A3E71E5C1F1300C2B497 /* Beacon.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -196,6 +203,7 @@
 				CD24A3DF1E5C1BF300C2B497 /* AppConstants.swift in Sources */,
 				CD24A3E81E5C1F1300C2B497 /* Beacon.swift in Sources */,
 				CD24A3ED1E5C43B600C2B497 /* Mopius+Data.swift in Sources */,
+				50CD1EBF1FD0DC8B00C3BA33 /* BatteryStatusTableViewController+CBCentralManagerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
